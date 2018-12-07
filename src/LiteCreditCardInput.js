@@ -162,6 +162,7 @@ export default class LiteCreditCardInput extends Component {
                    containerStyle={s.expiryInput} />
           <CCInput {...this._inputProps("cvc")}
                    keyboardType="numeric"
+                   secureTextEntry
                    containerStyle={s.cvcInput} />
         </View>
         <TouchableOpacity>
