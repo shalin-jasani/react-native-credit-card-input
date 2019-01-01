@@ -75,7 +75,7 @@ export default class CCInput extends Component {
     //alert(this.props.field);
 
     if(this.props.field == 'number') maxlength = 19;
-    if(this.props.field == 'cvc') maxlength = 3;
+    if(this.props.field == 'cvc') maxlength = 4;
 
     return (
       <TouchableOpacity onPress={this.focus}
